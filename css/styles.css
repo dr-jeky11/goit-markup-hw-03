@@ -5,11 +5,40 @@ body {
 }
 
 ul {
-    list-style-type: none
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
 }
 
 a {
     text-decoration: none;
+}
+
+img {display: block;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1158px;
+    /* padding-left:  
+    padding-right:   */
+    margin-left: 156px;
+    margin-right: 156px;
 }
 
 .head-logo {
