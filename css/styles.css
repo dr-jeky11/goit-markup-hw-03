@@ -157,6 +157,7 @@ p {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto;
 }
 
 .hero-button {
@@ -214,6 +215,7 @@ p {
 
 .team-list {
   display: flex;
+  gap: 24px;
 }
 
 .team-title {
@@ -230,6 +232,15 @@ p {
 .team-item {
   background-color: #ffffff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+  background: #fff;
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.bio {
+  padding: 32px 0;
 }
 
 .team-persons {
@@ -238,8 +249,8 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-text {
@@ -247,7 +258,7 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
+  text-align: center;
 }
 
 .portfolio-list {
