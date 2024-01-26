@@ -62,7 +62,7 @@ p {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: border-bottom: 1px solid #E7E9FC;;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -98,6 +98,7 @@ p {
   line-height: 1.16;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .navi-list {
